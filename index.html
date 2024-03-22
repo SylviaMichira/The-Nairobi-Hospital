@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://thenairobihosp.org/_nuxt/img/TNH%20Logo.f93f190.svg" width="16px" height="16px" type="image/svg+xml">
+
+    <title>Hospital Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome-message"></div>
+
+    <script>function sayWelcome() {
+       
+        const username = prompt("Enter your name:"); // prompt for input
+      
+        const message = "Welcome, " + username + "!"; // Create the welcome message
+
+        const welcomeElement = document.getElementById("welcome-message");
+        if (welcomeElement) {
+          welcomeElement.textContent = message;
+        } else {
+          console.error("Element with ID 'welcome-message' not found");
+        }
+      }
+      
+      sayWelcome(); // Call the function to display the welcome message
+
+    </script>
+     <!-- Background Music -->
+     <audio id="background-music" autoplay loop>
+        <source src="WhatsApp Audio 2024-03-21 at 23.44.06_76e34a85.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="esg.html">ESG</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="index-bg">
+        <section>
+            <h1>Welcome to The Nairobi Hospital</h1>
+            
+
+        </section>
+    </main>
+    <div style="margin-left:5px">
+    <p>The Nairobi Hospital is a leading healthcare facility dedicated 
+        to providing comprehensive and compassionate medical services
+         to patients in our community. With a team of highly skilled 
+         healthcare professionals and state-of-the-art medical technology,
+          we offer a wide range of services including primary care, emergency 
+          medicine, specialty clinics, diagnostic imaging, and surgical procedures.<br><br>
+           Our commitment to excellence ensures that every patient receives personalized 
+           care tailored to their unique needs.<br>At The Nairobi Hospital, we prioritize patient safety,
+            comfort, and well-being, striving to make a positive impact on the health and 
+            lives of those we serve.</p>
+            <h2  style="color:#05330f;">Virtual tour of The Nairobi Hospital</h2>
+            <iframe
+             width="560" height="315" src="https://www.youtube.com/embed/317Bx2i3_R4?si=9dWJJOp2keHP0_n7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+             <footer>
+        <section>
+            <h2>Get in Touch With Us</h2>
+            <p> +254 703 082 000 / +254 730 666 000</p>
+            <p>info@thenairobihospital.com</p>
+            <p>The Nairobi Hospital, Argwings Kodhek Rd, Upper Hill area, Nairobi, Kenya</p>
+        </section>
+        <p>&copy; 2024 The Nairobi Hospital. All rights reserved.</p>
+    </footer>
+</body>
+</html>
